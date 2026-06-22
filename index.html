@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio | Marisa Geovana Paredes Baltazar</title>
+  <meta name="description" content="Portafolio digital de Marisa Geovana Paredes Baltazar: investigación social, comunicación de la ciencia, comunicación para el desarrollo y sistematización de experiencias." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar">
+      <a class="brand" href="#inicio" aria-label="Inicio"><span class="brand-mark">MP</span><span class="brand-text">Marisa Paredes</span></a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#que-hago">Qué hago</a><a href="#experiencia">Experiencia</a><a href="#proyectos">Proyectos</a><a href="#publicaciones">Publicaciones</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto" class="nav-cta">Contacto</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero section-pad"><div class="hero-bg-one"></div><div class="hero-bg-two"></div><div class="container hero-grid">
+      <div class="hero-content reveal"><p class="eyebrow" id="perfilEtiqueta"></p><h1 id="perfilNombre"></h1><h2 id="perfilTitulo"></h2><p class="hero-description" id="perfilDescripcion"></p><div class="hero-actions"><a href="#proyectos" class="btn btn-primary">Ver proyectos</a><a href="#publicaciones" class="btn btn-secondary">Ver publicaciones</a><a id="cvLink" href="#" class="btn btn-ghost" target="_blank" rel="noopener">Descargar CV</a><a href="#contacto" class="btn btn-contact">Contactar</a></div></div>
+      <aside class="hero-card reveal" aria-label="Resumen profesional"><div class="profile-photo-wrap" id="profilePhotoWrap"><div class="profile-circle"><span>MGPB</span></div></div><div class="profile-card-content"><p class="small-title">Especialidades</p><ul><li>Investigación social</li><li>Comunicación para el desarrollo</li><li>Comunicación de la ciencia</li><li>Sistematización de experiencias</li></ul></div></aside>
+    </div></section>
+    <section class="metrics" aria-label="Indicadores profesionales"><div class="container metrics-grid" id="metricasContainer"></div></section>
+    <section class="section-pad" id="que-hago"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Qué hago</p><h2>Investigación, comunicación y divulgación con enfoque social.</h2><p>Trabajo en la intersección entre investigación social, comunicación estratégica, divulgación científica y desarrollo territorial.</p></div><div class="services-grid" id="serviciosContainer"></div></div></section>
+
+    <section class="section-pad support-section" id="apoyo-proyecto"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Servicios aplicados</p><h2 id="apoyoTitulo"></h2><p id="apoyoSubtitulo"></p></div><div class="support-grid" id="apoyoProyectoContainer"></div></div></section>
+    <section class="section-pad soft-section" id="competencias"><div class="container two-col"><div class="section-heading compact reveal"><p class="eyebrow">Competencias</p><h2>Competencias digitales y comunicacionales</h2></div><div class="chips reveal" id="competenciasContainer"></div></div></section>
+    <section class="section-pad" id="experiencia"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Experiencia</p><h2>Consultorías y roles destacados</h2><p>Experiencia en comunicación, investigación, divulgación y gestión de procesos académicos, comunitarios e institucionales.</p></div><div class="timeline" id="experienciaContainer"></div></div></section>
+    <section class="section-pad soft-section" id="proyectos"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Proyectos</p><h2>Proyectos destacados</h2><p>Selección de trabajos vinculados a comunicación estratégica, investigación social, agroecología, juventudes y divulgación científica.</p></div><div class="projects-grid" id="proyectosContainer"></div></div></section>
+    <section class="section-pad" id="publicaciones"><div class="container"><div class="section-heading reveal"><p class="eyebrow">Publicaciones</p><h2>Producción académica y materiales de divulgación</h2><p>Artículos, libros digitales, investigaciones y productos académicos seleccionados.</p></div><div class="publication-filters" id="filtrosPublicaciones" aria-label="Filtros de publicaciones"></div><div class="publications-list" id="publicacionesContainer"></div></div></section>
+    <section class="section-pad soft-section" id="sobre-mi"><div class="container about-grid"><div class="about-copy reveal"><p class="eyebrow">Sobre mí</p><h2 id="sobreTitulo"></h2><p id="sobreTexto"></p></div><div class="about-panel reveal"><p class="small-title">Intereses de trabajo</p><div class="chips small" id="interesesContainer"></div></div></div></section>
+    <section class="section-pad" id="formacion"><div class="container two-col align-start"><div class="section-heading compact reveal"><p class="eyebrow">Formación</p><h2>Formación académica y complementaria</h2><div class="language-box" id="idiomasContainer"></div></div><div class="education-list" id="formacionContainer"></div></div></section>
+    <section class="contact-section section-pad" id="contacto"><div class="container contact-card reveal"><p class="eyebrow">Contacto</p><h2>Trabajemos juntas/os</h2><p>Disponible para consultorías, proyectos de investigación social, comunicación para el desarrollo, comunicación de la ciencia, sistematización de experiencias, producción de contenidos y apoyo en procesos académicos o institucionales.</p><div class="contact-actions" id="contactoContainer"></div></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-inner"><p>© <span id="year"></span> Marisa Geovana Paredes Baltazar</p><p>Investigación social · Comunicación de la ciencia · Comunicación para el desarrollo</p></div></footer>
+  <script src="datos.js"></script><script src="script.js"></script>
+</body>
+</html>
